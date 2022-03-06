@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Regristro en la aplicación" skipped="0" tests="1" time="102.46" timestamp="2022-03-05 09:48:56"><testcase name="Registro exitoso"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+automatizacion.tasks.Register.performAs(Register.java:18)&#13;
+automatizacion.stepdefinitions.RegisterStepDefinition.ingresaTodosLasCredencialesValidas(RegisterStepDefinition.java:27)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
