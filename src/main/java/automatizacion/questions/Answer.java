@@ -1,34 +1,31 @@
 package automatizacion.questions;
 
-import automatizacion.ui.SearchButtonPage;
+import automatizacion.ui.SearchUserPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-public class Answer implements Question<Boolean>{
-    private String question;
+public class Answer implements Question<String>{
 
-    public Answer(String question){
-        this.question = question;
+
+    public static Answer toThe() {
+        return new Answer();
     }
 
-    public static Answer toThe(String question) {
-        return new Answer(question);
-    }
 
     @Override
-    public Boolean answeredBy (Actor actor){
-        boolean result;
-        String nameButton= Text.of(SearchButtonPage.BUTTON).viewedBy(actor).asString();
-        if(question.equals(nameButton)){
-            result = true;
-        }else{
-            result = false;
+    public String answeredBy(Actor actor) {
+       String valor =  Text.of(SearchUserPage.TABLE).viewedBy(actor).asString();
+      //return BrowseTheWeb.as(actor).find((List<By>) SearchUserPage.TABLE).getText();}// }
+        String result;
+        if (valor == "lugomez@email.com"){
+            result ="Se registro";
+             System.out.println(result);
         }
-        return null;
-    }
 
+        else    {
+            result = "no se registro";
+            System.out.println(result);}
+        return result;
 
-
-
-}
+}}

@@ -8,54 +8,62 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 
+
 public class Register implements Task{
-    public static Register onThePage() {
-        return  Tasks.instrumented(Register.class);
+    private RegisterPage testPage;
+    private String strFirstName;
+    private String strLastName;
+    private String strAddress;
+    private String strPhone;
+    private String strSkills;
+    private String strYearBirth;
+    private String strMonthBirth;
+    private String srtDayBirth;
+    private String strPassword;
+    private String strConfirmPassword;
+
+    public Register(String strFirstName, String strLastName, String strAddress, String strPhone, String strSkills, String strYearBirth, String strMonthBirth, String srtDayBirth, String strPassword, String strConfirmPassword) {
+        this.strFirstName = strFirstName;
+        this.strLastName = strLastName;
+        this.strAddress = strAddress;
+        this.strPhone = strPhone;
+        this.strSkills = strSkills;
+        this.strYearBirth = strYearBirth;
+        this.strMonthBirth = strMonthBirth;
+        this.srtDayBirth = srtDayBirth;
+        this.strPassword = strPassword;
+        this.strConfirmPassword = strConfirmPassword;
     }
-    public static final String CITY3 = null;
+
+    public static Register onThePage(String strFirstName, String strLastName, String strAddress, String strPhone, String strSkills, String strYearBirth, String strMonthBirth, String srtDayBirth, String strPassword, String strConfirmPassword) {
+
+        return  Tasks.instrumented(Register.class, strFirstName, strLastName, strAddress, strPhone, strSkills, strYearBirth, strMonthBirth, srtDayBirth, strPassword, strConfirmPassword);
+    }
+
     @Override
     public <T extends Actor> void performAs(T actor){
-        actor.attemptsTo(Click.on(RegisterPage.REGISTER_BUTTON),
-                Enter.theValue("Ana").into(RegisterPage.FIRST_NAME_USER),
-                Enter.theValue("Gomez").into(RegisterPage.LAST_NAME_USER),
-                Enter.theValue("anagomez@email.com").into(RegisterPage.EMAIL),
-                SelectFromOptions.byVisibleText("April").from(RegisterPage.MONTH_BIRTH),
-                SelectFromOptions.byVisibleText("12").from(RegisterPage.DAY_BIRTH),
-                SelectFromOptions.byVisibleText("2002").from(RegisterPage.YEAR_BIRTH),
-                Enter.theValue("Armenian").into(RegisterPage.LANGUAGES),
-                Click.on(RegisterPage.NEXT_LOCATION),
-               // SelectFromOptions.byVisibleText("Cali Valle del Cauca, Colombia").from(RegisterPage.CITY2),
-               // MoveMouse.to(RegisterPage.CITY2).andThen( Actions::;
-             //   SelectFromOptions.byVisibleText("Cali Valle del Cauca, Colombia").from(RegisterPage.CITY2),
-               // Hit.the(Keys.ARROW_DOWN).keyIn(RegisterPage.CITY2).equals(),
-              //   Enter.theValue("Cali").into(RegisterPage.CITY2),
-                //Ensure.that(RegisterPage.CITY).value().isEqualTo("Cali Valle del Cauca, Colombia"),
-              //  Click.on(RegisterPage.CITY2),
-           //     Enter.theValue("Colombia").into(RegisterPage.COUNTRY),
-                Enter.theValue("55555").into(RegisterPage.POSTAL_CODE),
-                Click.on(RegisterPage.NEXT_DEVICES),
-                //Clear.field(RegisterPage.OS),
-              //  Click.on(RegisterPage.X),
-               // Enter.theValue("macOS").into(RegisterPage.OS),
-                //SelectFromOptions.byVisibleText("macOS").from(RegisterPage.OS),
-            /*    Enter.theValue("OS X 10.11").into(RegisterPage.OS_VERSION),
-                Enter.theValue("Spanish").into(RegisterPage.OS_LANGUAGE),
-                Enter.theValue("Xiaomi").into(RegisterPage.MOBILE),
-                Enter.theValue("Redmi Note 8 Pro").into(RegisterPage.MOBILE_MODEL),
-                Enter.theValue("Android 11").into(RegisterPage.MOBILE_OS),
-                Click.on(RegisterPage.OS),
-                Click.on(RegisterPage.OS_VERSION),
-                Click.on(RegisterPage.OS_LANGUAGE),
-              */ // Enter.theValue("Xiaomi").into(RegisterPage.MOBILE),
-                //Enter.theValue("Redmi Note 8 Pro").into(RegisterPage.MOBILE_MODEL),
-                //Enter.theValue("Android 11").into(RegisterPage.MOBILE_OS),
-                Click.on(RegisterPage.LAST_STEP),
-                Enter.theValue("LuCeRo2325").into(RegisterPage.PASSWORD),
-                Enter.theValue("LuCeRo2325").into(RegisterPage.CONFIRM_PASSWORD),
-                Click.on(RegisterPage.CHECK_BOX),
-                Click.on(RegisterPage.CHECK_MARK),
+        actor.attemptsTo(
+                Enter.theValue(strFirstName).into(RegisterPage.FIRST_NAME),
+                Enter.theValue(strLastName).into(RegisterPage.LAST_NAME),
+                Enter.theValue(strAddress).into(RegisterPage.ADDRESS),
+                Enter.theValue("lugomez@email.com").into(RegisterPage.EMAIL),
+                Enter.theValue(strPhone).into(RegisterPage.PHONE),
+                Click.on(RegisterPage.GENDER_FEMALE),
+                Click.on(RegisterPage.HOBBIE2),
+                Click.on(RegisterPage.LANGUAGES_CLICK),
+                Click.on(RegisterPage.LANGUAGES),
+                SelectFromOptions.byVisibleText(strSkills).from(RegisterPage.SKILLS),
+              //  Click.on(RegisterPage.COUNTRY),
+                Click.on(RegisterPage.SELECT),
+                Click.on(RegisterPage.SELECT_COUNTRY),
+                SelectFromOptions.byVisibleText(strYearBirth).from(RegisterPage.YEAR_BIRTH),
+                SelectFromOptions.byVisibleText(strMonthBirth).from(RegisterPage.MONTH_BIRTH),
+                SelectFromOptions.byVisibleText(srtDayBirth).from(RegisterPage.DAY_BIRTH),
+                Enter.theValue(strPassword).into(RegisterPage.PASSWORD),
+                Enter.theValue(strConfirmPassword).into(RegisterPage.CONFIRM_PASSWORD),
                 Click.on(RegisterPage.REGISTER_FINISH)
-                        );
-    }
+
+                );
+           }
 
 }
