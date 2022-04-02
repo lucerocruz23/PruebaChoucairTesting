@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa80253e-7190-420d-803c-65042e9029ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/automatizacion/model/RegisterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/automatizacion/tasks/OpenPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/automatizacion/ui/TablePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
@@ -18,38 +13,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/questions/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/automatizacion/questions/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/tasks/OpenUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/automatizacion/tasks/OpenUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/tasks/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/automatizacion/tasks/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/ui/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/automatizacion/ui/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/ui/SearchButtonPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/automatizacion/ui/UtestPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/automatizacion/runners/RunnerTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/automatizacion/runners/RunnerTags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/automatizacion/stepdefinitions/RegisterStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/automatizacion/stepdefinitions/RegisterStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/co.com.choucair.certificatio.proyectobase.main.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Regristro#20en#20la#20aplicaci#f3n.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Regristro#20en#20la#20aplicaci#f3n.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/automatizacion.runners.RunnerTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/automatizacion.runners.RunnerTags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/automatizacion.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/automatizacion.runners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/registerUtest.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Regristro#20en#20la#20aplicaci#f3n.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Regristro#20en#20la#20aplicaci#f3n.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-automatizacion.runners.RunnerTags.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-automatizacion.runners.RunnerTags.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/questions/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/questions/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/tasks/OpenUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/tasks/OpenUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/tasks/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/tasks/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/ui/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/ui/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/ui/SearchButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/ui/SearchUserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automatizacion/ui/UtestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automatizacion/ui/TestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automatizacion/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automatizacion/runners/RunnerTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automatizacion/stepdefinitions/RegisterStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automatizacion/stepdefinitions/RegisterStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registerUtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registerTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-106222043bf5111ee21a5503fbfbb1aff164789b91d3c7365fdc85bd9477fdad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1cae0446e21feccf2a025f9a750a38e8ac95abba36a52707c253d551c5a11db1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
